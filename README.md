@@ -52,42 +52,37 @@ This project is about the Train-Ticket-Reservation-System which is used to view 
 ---
 
 ## 💡 Technologies Used
-- **Frontend**: HTML, CSS,BOOTSTRAP
+- **Frontend**: HTML, CSS, BOOTSTRAP
 - **Backend**: Java (Spring Boot)
 - **Database**: SQL PLUS OR MYSQL
 
 ---
 
-## 💡 Software and Tools Required
+## 🧰 Software and Tools Required
 - Git
-- Java JDk8+
+- Java JDK 8+
 - Eclipse EE
 - Apache Maven
 - Tomcat v8.0+
-- Oracle SQL PLUS or MYSQL
+- Oracle SQL*Plus or MySQL
 
 ---
 
----
+## 🛠️ Dummy Database Initialization
 
-##**Dummy Database Initialization**
+### Step 1: Open SQL*Plus or SQL Developer  
+### Step 2: Connect to the database using admin credentials  
+### Step 3: Create a new user
 
-STEP 1: Open SQL Plus OR SQL Developer
-
-STEP 2: Login and connect to database using administrator username and password
-
-STEP 3 :Execute the below command first to create a new user:
-
-
-ALTER SESSION SET "_ORACLE_SCRIPT"=TRUE;  
+```sql
+ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
 CREATE USER RESERVATION IDENTIFIED BY MANAGER;
 GRANT DBA TO RESERVATION;
 COMMIT;
 
-NOTE: If the above command fails for alter session issues, try to remove first line and then execute it.
+NOTE: ⚠️If the ALTER SESSION command fails, skip it and run the rest.
 
-STEP 4: Now execute the below sql query in same terminal
-
+STEP 4: Switch to the new user and create tables
 
 CONNECT RESERVATION/MANAGER;
 CREATE TABLE "RESERVATION"."CUSTOMER" 
@@ -135,8 +130,11 @@ CREATE TABLE "RESERVATION"."HISTORY"
 
 COMMIT;
 
-INSERT INTO RESERVATION.ADMIN VALUES('admin@demo.com','admin','System','Admin','Demo Address 123 colony','9874561230');
-INSERT INTO RESERVATION.CUSTOMER VALUES('shashi@demo.com','shashi','Shashi','Raj','Kolkata, West Bengal',954745222);
+Step 5: Insert Sample Data
+
+
+INSERT INTO RESERVATION.ADMIN VALUES('admin@demo.com','admin','System','Admin','Demo Address RZG-225','7042636954');
+INSERT INTO RESERVATION.CUSTOMER VALUES('aakash@demo.com','user','AAKASH','Dubey','RZG-225, New Delhi',9985764882);
 
 INSERT INTO RESERVATION.TRAIN VALUES(10001,'JODHPUR EXP','HOWRAH','JODHPUR', 152, 490.50);
 INSERT INTO RESERVATION.TRAIN VALUES(10002,'YAMUNA EXP','GAYA','DELHI', 52, 550.50);
@@ -161,12 +159,13 @@ COMMIT;
 3. Import the SQL schema
 4. Open the project in your IDE (**Eclipse**)
 5. Run the Spring Boot application
-6. Access the website on `localhost:8080`
+6. Visit http://localhost:8080
 
 ---
 
 ## 📧 Contact
 For any queries, feel free to contact the project developer.
+**AAKASH DUBEY**
 
 ---
 
