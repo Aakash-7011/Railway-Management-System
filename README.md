@@ -82,7 +82,9 @@ COMMIT;
 
 NOTE: ⚠️If the ALTER SESSION command fails, skip it and run the rest.
 
-```sql
+---
+
+
 ---
 
 **### STEP 4: Switch to the new user and create tables** 
@@ -153,6 +155,8 @@ INSERT INTO RESERVATION.HISTORY VALUES('BBC373-NSDF-4674','shashi@demo.com',1000
 COMMIT;
 
 ---
+
+
 
 ---
 
