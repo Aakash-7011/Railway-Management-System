@@ -140,7 +140,7 @@ COMMIT;
 ```
 
 
-###**Step 5: Insert Sample Data**
+### STEP 5: Insert Sample Data
 
 ```sql
 
@@ -174,7 +174,8 @@ COMMIT;
 3. Import the SQL schema
 4. Open the project in your IDE (**Eclipse**)
 5. Run the Spring Boot application
-6. Visit http://localhost:8080
+6. Connect the Tomcat Server
+7. Visit http://localhost:8080 to check; if getting error change port no. to **8081,8083**
 
 ---
 
