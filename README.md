@@ -70,7 +70,7 @@ This project is about the Train-Ticket-Reservation-System which is used to view 
 
 ## 🛠️ Dummy Database Initialization
 
-### Step 1: Open SQL*Plus or SQL Developer  
+### Step 1: Open SQL Plus or MYSQL  
 ### Step 2: Connect to the database using admin credentials  
 ### Step 3: Create a new user
 
@@ -83,12 +83,10 @@ COMMIT;
 NOTE: ⚠️If the ALTER SESSION command fails, skip it and run the rest.
 
 ```
----
-
 
 ---
 
-**### STEP 4: Switch to the new user and create tables** 
+**#### STEP 4: Switch to the new user and create tables** 
 
 CONNECT RESERVATION/MANAGER;
 CREATE TABLE "RESERVATION"."CUSTOMER" 
