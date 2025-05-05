@@ -82,6 +82,7 @@ COMMIT;
 
 NOTE: ⚠️If the ALTER SESSION command fails, skip it and run the rest.
 
+```
 ---
 
 
