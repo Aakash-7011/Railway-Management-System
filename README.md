@@ -86,7 +86,10 @@ NOTE: ⚠️If the ALTER SESSION command fails, skip it and run the rest.
 
 ---
 
-**#### STEP 4: Switch to the new user and create tables** 
+#### STEP 4: Switch to the new user and create tables
+
+```sql
+
 
 CONNECT RESERVATION/MANAGER;
 CREATE TABLE "RESERVATION"."CUSTOMER" 
@@ -134,8 +137,12 @@ CREATE TABLE "RESERVATION"."HISTORY"
 
 COMMIT;
 
+```
+
+
 **###Step 5: Insert Sample Data**
 
+```sql
 
 INSERT INTO RESERVATION.ADMIN VALUES('admin@demo.com','admin','System','Admin','Demo Address RZG-225','7042636954');
 INSERT INTO RESERVATION.CUSTOMER VALUES('aakash@demo.com','user','AAKASH','Dubey','RZG-225, New Delhi',9985764882);
@@ -152,6 +159,8 @@ INSERT INTO RESERVATION.HISTORY VALUES('BBC375-NSDF-4675','shashi@demo.com',1000
 INSERT INTO RESERVATION.HISTORY VALUES('BBC373-NSDF-4674','shashi@demo.com',10006,TO_DATE('22-JULY-2024'), 'PATNA', 'DELHI', 3, 4352.25);
 
 COMMIT;
+
+```
 
 ---
 
