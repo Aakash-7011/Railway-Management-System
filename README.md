@@ -82,7 +82,10 @@ COMMIT;
 
 NOTE: ⚠️If the ALTER SESSION command fails, skip it and run the rest.
 
-**###STEP 4: Switch to the new user and create tables**
+```sql
+---
+
+**### STEP 4: Switch to the new user and create tables** 
 
 CONNECT RESERVATION/MANAGER;
 CREATE TABLE "RESERVATION"."CUSTOMER" 
