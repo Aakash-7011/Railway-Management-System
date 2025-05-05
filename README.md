@@ -82,7 +82,7 @@ COMMIT;
 
 NOTE: ⚠️If the ALTER SESSION command fails, skip it and run the rest.
 
-STEP 4: Switch to the new user and create tables
+**###STEP 4: Switch to the new user and create tables**
 
 CONNECT RESERVATION/MANAGER;
 CREATE TABLE "RESERVATION"."CUSTOMER" 
@@ -130,7 +130,7 @@ CREATE TABLE "RESERVATION"."HISTORY"
 
 COMMIT;
 
-Step 5: Insert Sample Data
+**###Step 5: Insert Sample Data**
 
 
 INSERT INTO RESERVATION.ADMIN VALUES('admin@demo.com','admin','System','Admin','Demo Address RZG-225','7042636954');
