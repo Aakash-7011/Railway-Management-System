@@ -86,7 +86,7 @@ NOTE: ⚠️If the ALTER SESSION command fails, skip it and run the rest.
 
 ---
 
-#### STEP 4: Switch to the new user and create tables
+### STEP 4: Switch to the new user and create tables
 
 ```sql
 
@@ -140,7 +140,7 @@ COMMIT;
 ```
 
 
-**###Step 5: Insert Sample Data**
+###**Step 5: Insert Sample Data**
 
 ```sql
 
@@ -180,6 +180,8 @@ COMMIT;
 
 ## 📧 Contact
 For any queries, feel free to contact the project developer.
+
+
 **AAKASH DUBEY**
 
 ---
