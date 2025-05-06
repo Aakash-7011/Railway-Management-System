@@ -1,8 +1,8 @@
-package com.shashi.beans;
+package com.aakash.beans;
 
 import java.io.IOException;
 
-import com.shashi.constant.ResponseCode;
+import com.aakash.constant.ResponseCode;
 
 public class TrainException extends IOException {
 
