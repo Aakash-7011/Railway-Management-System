@@ -1,4 +1,4 @@
-package com.shashi.servlets;
+package com.aakash.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -13,16 +13,16 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.shashi.beans.HistoryBean;
-import com.shashi.beans.TrainBean;
-import com.shashi.beans.TrainException;
-import com.shashi.constant.ResponseCode;
-import com.shashi.constant.UserRole;
-import com.shashi.service.BookingService;
-import com.shashi.service.TrainService;
-import com.shashi.service.impl.BookingServiceImpl;
-import com.shashi.service.impl.TrainServiceImpl;
-import com.shashi.utility.TrainUtil;
+import com.aakash.beans.HistoryBean;
+import com.aakash.beans.TrainBean;
+import com.aakash.beans.TrainException;
+import com.aakash.constant.ResponseCode;
+import com.aakash.constant.UserRole;
+import com.aakash.service.BookingService;
+import com.aakash.service.TrainService;
+import com.aakash.service.impl.BookingServiceImpl;
+import com.aakash.service.impl.TrainServiceImpl;
+import com.aakash.utility.TrainUtil;
 
 @SuppressWarnings("serial")
 @WebServlet("/booktrains")
