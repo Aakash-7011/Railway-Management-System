@@ -1,4 +1,4 @@
-package com.shashi.servlets;
+package com.aakash.servlets;
 
 import java.io.IOException;
 
@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.shashi.constant.UserRole;
-import com.shashi.utility.TrainUtil;
+import com.aakash.constant.UserRole;
+import com.aakash.utility.TrainUtil;
 
 @WebServlet("/booktrainfwd")
 public class BookTrainFwd extends HttpServlet {
