@@ -1,4 +1,4 @@
-package com.shashi.utility;
+package com.aakash.utility;
 
 import java.util.Arrays;
 import java.util.Optional;
@@ -8,12 +8,12 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.shashi.beans.TrainException;
-import com.shashi.beans.UserBean;
-import com.shashi.constant.ResponseCode;
-import com.shashi.constant.UserRole;
-import com.shashi.service.UserService;
-import com.shashi.service.impl.UserServiceImpl;
+import com.aakash.beans.TrainException;
+import com.aakash.beans.UserBean;
+import com.aakash.constant.ResponseCode;
+import com.aakash.constant.UserRole;
+import com.aakash.service.UserService;
+import com.aakash.service.impl.UserServiceImpl;
 
 public class TrainUtil {
 
