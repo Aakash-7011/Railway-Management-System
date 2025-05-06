@@ -1,4 +1,4 @@
-package com.shashi.servlets;
+package com.aakash.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.shashi.beans.TrainException;
-import com.shashi.constant.ResponseCode;
+import com.aakash.beans.TrainException;
+import com.aakash.constant.ResponseCode;
 
 public class ErrorHandlerServlet extends HttpServlet {
 
