@@ -1,9 +1,9 @@
-package com.shashi.service;
+package com.aakash.service;
 
 import java.util.List;
 
-import com.shashi.beans.TrainBean;
-import com.shashi.beans.TrainException;
+import com.aakash.beans.TrainBean;
+import com.aakash.beans.TrainException;
 
 public interface TrainService {
 
