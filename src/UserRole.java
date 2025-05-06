@@ -1,4 +1,4 @@
-package com.shashi.constant;
+package com.aakash.constant;
 
 public enum UserRole {
 	ADMIN, CUSTOMER
