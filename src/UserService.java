@@ -1,9 +1,9 @@
-package com.shashi.service;
+package com.aakash.service;
 
 import java.util.List;
 
-import com.shashi.beans.UserBean;
-import com.shashi.beans.TrainException;
+import com.aakash.beans.UserBean;
+import com.aakash.beans.TrainException;
 
 public interface UserService {
 
